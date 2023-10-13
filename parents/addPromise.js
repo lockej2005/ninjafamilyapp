@@ -87,7 +87,7 @@ const addPromise = ({ navigation }) => {
     <View>
         <View style={styles.container}>
             {renderIndicator()}
-            <Text style={styles.dashboardTitle}>Add Promises</Text>
+            <Text style={styles.dashboardTitle}>Add Promise</Text>
             <View style={{ ...styles.suggestionsContainer, flexDirection: 'row', flexWrap: 'wrap' }}>
         {kidsUsernames.map((suggestion, index) => (
             <TouchableOpacity 
